@@ -61,29 +61,44 @@ a {
   background-position: center;
 }
 
-nav.container {
+nav.container .fix {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-nav.container > span {
+nav.container .fix > span {
   font-weight: 800;
   font-size: 1.5rem;
   color: var(--hero-color);
 }
 
-nav.container .navList {
+nav.container .fix .navList {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
 }
 
-nav.container .navList ul {
+nav.container .fix .navList ul {
   display: flex;
   gap: 2rem;
   color: var(--hero-color);
+}
+
+nav.container .fix > button {
+  background-color: transparent;
+  border: none;
+}
+
+nav.container i {
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+nav.container .toggle_btn {
+  display: none;
 }
 
 .main_hero {
@@ -188,6 +203,7 @@ nav.container .navList ul {
 /* Fruits Section */
 
 /* Testimonial */
+
 .testimonials {
   text-align: center;
 }
@@ -289,3 +305,40 @@ footer span + ul {
   color: var(--Dark-desaturated-cyan);
 }
 /* Footer */
+
+/* MEDIA QUERIES */
+@media (min-width: 200px) and (max-width: 375px) {
+}
+
+@media (min-width: 376px) and (max-width: 576px) {
+  nav.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav.container .toggle_btn {
+    display: block;
+  }
+
+  nav.container .fix .navList {
+    display: none;
+  }
+
+  .main_hero h1 {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--hero-color);
+    margin-bottom: 6rem;
+  }
+
+  main {
+    display: none;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 820px) {
+}
+/* MEDIA QUERIES */
