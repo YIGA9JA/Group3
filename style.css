@@ -1,19 +1,184 @@
-/* LINKING GOOGLE FONTS */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
-​
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;900&family=Fraunces:opsz,wght@9..144,100;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&display=swap");
+/* FONTS */
+
 /* CSS VARIABLES */
 :root {
-  --container-pd: 1.5rem 2.5rem;
-  --container-pd-2: 1rem 1.3rem;
-  --container-mt-mg: 1.5rem;
+  --container-pd: 2rem 2rem;
+  --hero-color: #fff;
+  --Soft-red: hsl(7, 99%, 70%);
+  --Yellow: hsl(51, 100%, 49%);
+  --Dark-desaturated-cyan: hsl(167, 40%, 24%);
+  --Dark-blue: hsl(198, 62%, 26%);
+  --Dark-moderate-cyan: hsl(168, 34%, 41%);
 }
 /* CSS VARIABLES */
-​
-/* INITIALIZING CSS */
+
+/* INITIALIZATION */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* testingg */
+body {
+  /* font-family: "Barlow", sans-serif; */
+  font-family: "Fraunces", serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* INITIALIZATION */
+
+/* GLOBAL CLASSES */
+.container {
+  padding: var(--container-pd);
+}
+
+.btn {
+  padding: 0.7rem 1.3rem;
+  border-radius: 100px;
+  background-color: var(--hero-color);
+  border: none;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.767);
+  text-transform: uppercase;
+}
+/* GLOBAL CLASSES */
+
+/* HERO SECTION */
+.hero {
+  height: 100vh;
+  background-image: url(/images/desktop/image-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+nav.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav.container > span {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: var(--hero-color);
+}
+
+nav.container .navList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+nav.container .navList ul {
+  display: flex;
+  gap: 2rem;
+  color: var(--hero-color);
+}
+
+.main_hero {
+  margin-top: 2rem;
+  padding: var(--container-pd);
+}
+
+.main_hero h1 {
+  letter-spacing: 10px;
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: var(--hero-color);
+  margin-bottom: 6rem;
+}
+
+.main_hero img {
+  height: 80px;
+  display: block;
+  margin: auto;
+}
+/* HERO SECTION */
+
+/* EGG/CUP SECTIONS */
+.egg,
+.cup {
+  display: flex;
+  height: 80vh;
+}
+
+.egg .egg_content,
+.cup .cup_content,
+.fruits .apple,
+.fruits .orange {
+  padding: 10rem;
+}
+
+.egg .egg_content h2,
+.cup .cup_content h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.egg .egg_content p,
+.cup .cup_content p {
+  width: 100%;
+  color: var(--Dark-desaturated-cyan);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.egg_content > span,
+.cup_content > span {
+  text-transform: uppercase;
+  font-weight: 800;
+  border-bottom: 1px solid var(--Soft-red);
+}
+
+.egg img {
+  width: 49.5vw;
+}
+
+.cup img {
+  width: 49.5vw;
+}
+
+/* EGG/CUP SECTIONS */
+.fruits {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.apple {
+  text-align: center;
+  background-image: url(/images/desktop/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+}
+
+.orange {
+  text-align: center;
+  background-image: url(/images/desktop/image-photography.jpg);
+  background-repeat: no-repeat;
+}
+
+.apple h3,
+.orange h3 {
+  color: var(--Dark-desaturated-cyan);
+  font-size: 1.5rem;
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+  padding-top: 5rem;
+}
+
+.apple p,
+.orange p {
+  color: var(--Dark-desaturated-cyan);
+}
