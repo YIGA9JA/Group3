@@ -1,0 +1,17 @@
+/* LINKING GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
+​
+/* CSS VARIABLES */
+:root {
+  --container-pd: 1.5rem 2.5rem;
+  --container-pd-2: 1rem 1.3rem;
+  --container-mt-mg: 1.5rem;
+}
+/* CSS VARIABLES */
+​
+/* INITIALIZING CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
