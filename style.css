@@ -151,6 +151,8 @@ nav.container .navList ul {
 }
 
 /* EGG/CUP SECTIONS */
+
+/* Fruits Section */
 .fruits {
   height: 100vh;
   display: grid;
@@ -182,3 +184,56 @@ nav.container .navList ul {
 .orange p {
   color: var(--Dark-desaturated-cyan);
 }
+/* Fruits Section */
+
+/* Testimonial */
+
+.testimonials {
+  text-align: center;
+}
+
+.testimonials h3 {
+  color: rgba(0, 0, 0, 0.386);
+  letter-spacing: 5px;
+}
+
+.testimonial {
+  display: flex;
+  padding: var(--container-pd);
+}
+
+.testimonial_box > img {
+  margin-top: 2.5rem;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.testimonial_box p {
+  font-family: "Barlow", sans-serif;
+  color: #333333;
+  margin: auto;
+  margin-top: 2rem;
+  width: 80%;
+  padding: 15px 35px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.testimonial_box > .initials {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial_box > .initials > .name {
+  font-family: "Fraunces", serif;
+  font-weight: bold;
+}
+
+.testimonial_box > .initials > .name + span {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+}
+
+/* Testimonial */
