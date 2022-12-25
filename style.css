@@ -56,7 +56,7 @@ margin-top: 80px;
 }
 .fp img {
   margin-left: 50%;
-  margin-top: -453px;
+  margin-top: -455px;
   width: 50%;
   height: 50%;
 }
@@ -65,4 +65,65 @@ margin-top: 80px;
   height: 50%;
   margin-top: -5px;
 }
+.ts img {
+  width: 50%;
+  height: 50%;
+  margin-top: -5px;
+}
+.fts {
+  margin-left: 50%;
+  margin-top: -524px;
+}
+.fts img {
+  height: 50%;
+  width: 100%;
+}
+.plain ul {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}  
+.multiimg div{
+width: 100%;
+height: 50%
+}
+.milk img{
+  width: 25%;
+  height: 50%;
+}
+.orange {
+  margin-left: 25%;
+  margin-top: -391px;
+  width: 25%;
+  height: 50%;
+}
+.orange img{
+  width: 100%;
+  height: 50%;
+}
+.cones {
+  margin-left: 50%;
+  margin-top: -391px;
+  width: 25%;
+}
+.cones img {
+  width: 100%;
+  height: 50%;
+}
+.sugar{
+  margin-left: 75%;
+  margin-top: -391px;
+  width: 25%;
+}
+.sugar img {
 
+  width: 100%;
+  height: 50%;
+}
+.sun {
+  background-color: rgb(127, 201, 186);
+  width: 100%;
+
+}
