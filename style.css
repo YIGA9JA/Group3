@@ -14,12 +14,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}.image-header img{
+}
+.image-header img{
   width: 100%;
   height: 50%;
   }
 header nav {
 color: white;
+margin-top: -50px;
 }
 header nav ul {
   text-decoration: none;
@@ -34,6 +36,7 @@ header nav ul {
 h1 {
   margin-top: -550px;
   text-align: center;
+  color: white;
 }
 .scrollimg{
 margin-left: 657px;
@@ -56,7 +59,7 @@ margin-top: 80px;
 }
 .fp img {
   margin-left: 50%;
-  margin-top: -455px;
+  margin-top: -454px;
   width: 50%;
   height: 50%;
 }
@@ -72,7 +75,7 @@ margin-top: 80px;
 }
 .fts {
   margin-left: 50%;
-  margin-top: -524px;
+  margin-top: -560px;
 }
 .fts img {
   height: 50%;
@@ -85,45 +88,50 @@ margin-top: 80px;
   justify-content: space-between;
   text-align: center;
 }  
-.multiimg div{
+.plain img {
+  border-radius: 50%;
+}
+.multiimg {
 width: 100%;
 height: 50%
 }
-.milk img{
+.milk {
+  margin-top: 150px;
   width: 25%;
   height: 50%;
 }
+.milk img{
+  width: 100%;
+}
 .orange {
   margin-left: 25%;
-  margin-top: -391px;
+  margin-top: -418px;
   width: 25%;
   height: 50%;
 }
 .orange img{
   width: 100%;
-  height: 50%;
 }
 .cones {
   margin-left: 50%;
-  margin-top: -391px;
+  margin-top: -417px;
   width: 25%;
 }
 .cones img {
   width: 100%;
-  height: 50%;
 }
 .sugar{
   margin-left: 75%;
-  margin-top: -391px;
+  margin-top: -418px;
   width: 25%;
 }
 .sugar img {
 
   width: 100%;
-  height: 50%;
 }
 .sun {
+  height: 300px;
   background-color: rgb(127, 201, 186);
   width: 100%;
-
+margin-top: -25px;
 }
